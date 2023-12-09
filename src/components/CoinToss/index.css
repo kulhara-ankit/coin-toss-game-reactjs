@@ -1,0 +1,93 @@
+/* Write your CSS here */
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: #ffffff;
+  width: 30vw;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.image {
+  height: 180px;
+  width: 180px;
+  margin-bottom: 24px;
+}
+.button {
+  padding: 10px;
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  border-style: none;
+  margin-bottom: 24px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.count-para {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-left: 24px;
+  margin-right: 24px;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    width: 80vw;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .image {
+    height: 120px;
+    width: 120px;
+  }
+  .count-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
